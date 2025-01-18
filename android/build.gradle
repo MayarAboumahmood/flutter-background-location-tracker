@@ -38,6 +38,10 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+    kotlinOptions {
+        jvmTarget = "1.8" // Set it to 1.8 or another supported target version
+    }
+
 }
 
 dependencies {
@@ -46,3 +50,4 @@ dependencies {
     implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0'
     implementation "androidx.core:core-ktx:1.9.0"
 }
+
