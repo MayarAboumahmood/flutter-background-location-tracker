@@ -25,7 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace = "com.example.taxi_app_driver"
+    namespace = "com.icapps.background_location_tracker"
+//    namespace = "com.example.taxi_app_driver"
     compileSdkVersion 34
 
     sourceSets {
